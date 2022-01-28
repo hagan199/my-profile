@@ -1,0 +1,28 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  background-image: url("../../assets/Home/bg.jpg");
+}
+
+.profile-parent{
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+.profile-detail{
+  font-size: 23px;
+  font-family: "Poppins SemiBold";
+}
+.profile-details-role{
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+
+}
+.profile-detail-role h1{
+  font-size: 40px
+}
