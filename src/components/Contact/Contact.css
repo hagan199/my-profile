@@ -187,6 +187,14 @@ a.contact-info-value:hover {
   gap: 10px;
 }
 
+.contact-submit i {
+  transition: transform 0.3s ease;
+}
+
+.contact-submit:hover i {
+  transform: translateX(3px) translateY(-2px);
+}
+
 @media (max-width: 900px) {
   .contact-content {
     grid-template-columns: 1fr;
